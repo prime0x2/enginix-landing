@@ -1,0 +1,23 @@
+@tailwind components;
+
+@layer components {
+    .clients {
+        @apply text-center w-[90%] mx-auto py-10;
+    }
+
+    .clients h1 {
+        @apply text-3xl text-blue-600 font-extrabold mb-4;
+    }
+
+    .clients__list {
+        @apply flex items-center justify-between;
+    }
+
+    .clients__list img {
+        @apply w-[160px];
+    }
+
+    .clients__list .resize {
+        @apply w-[90px];
+    }
+}

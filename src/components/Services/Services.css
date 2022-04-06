@@ -1,0 +1,39 @@
+@tailwind components;
+
+@layer components {
+    .services {
+        @apply w-full bg-[#0046ff] py-20;
+    }
+
+    .services__container {
+        @apply w-[80%] mx-auto text-white;
+    }
+
+    .services__container > h1 {
+        @apply text-6xl font-extrabold mb-4;
+    }
+
+    .services__container > p {
+        @apply text-sm mb-10;
+    }
+
+    .services__list {
+        @apply flex items-center justify-between;
+    }
+
+    .service__item img {
+        @apply w-[90px];
+    }
+
+    .service__item > h1 {
+        @apply text-3xl font-bold mt-3;
+    }
+
+    .service__item > p {
+        @apply mt-3 font-light tracking-wide;
+    }
+
+    .service__item button {
+        @apply py-2 px-6 bg-white text-blue-600 font-bold rounded mt-5;
+    }
+}

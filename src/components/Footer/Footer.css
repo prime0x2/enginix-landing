@@ -1,0 +1,51 @@
+@tailwind components;
+
+@layer components {
+    .footer {
+        @apply w-full bg-[#00103b];
+    }
+
+    .footer__container {
+        @apply w-[80%] mx-auto text-white;
+    }
+
+    .footer__content {
+        @apply flex items-center pt-20 pb-14;
+    }
+
+    .footer__content__left {
+        @apply flex-[50%] space-y-5;
+    }
+
+    .footer__content__right {
+        @apply flex-[50%] pl-40 space-y-4;
+    }
+
+    .footer__content__left img {
+        @apply w-[300px];
+    }
+
+    .footer__content__left p {
+        @apply w-[85%] font-light;
+    }
+
+    .footer__content__left i {
+        @apply mr-3 text-5xl cursor-pointer;
+    }
+
+    .footer__content__right div {
+        @apply flex items-center space-x-4;
+    }
+
+    .footer__content__right div > i {
+        @apply p-2 bg-blue-600 rounded-full cursor-pointer;
+    }
+
+    .footer__content__right div:nth-child(3) > i {
+        @apply py-2 px-[10px] bg-blue-600 rounded-full;
+    }
+
+    .footer__copyright {
+        @apply text-center text-sm py-5;
+    }
+}

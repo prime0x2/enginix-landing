@@ -1,0 +1,23 @@
+@tailwind components;
+
+@layer components {
+    .navbar {
+        @apply w-[90%] mx-auto flex items-center justify-between py-5 bg-[#f4f7ff] h-20;
+    }
+
+    .navbar__logo img {
+        @apply w-[150px];
+    }
+
+    .navbar__links ul {
+        @apply space-x-4;
+    }
+
+    .navbar__links ul li {
+        @apply inline-block px-4 py-2 hover:text-blue-500 font-medium;
+    }
+
+    .navbar__button button {
+        @apply px-8 py-2 rounded bg-blue-600 duration-300 text-white text-sm font-semibold;
+    }
+}

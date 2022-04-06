@@ -1,0 +1,46 @@
+@tailwind components;
+
+@layer components {
+    .process {
+        @apply w-[80%] mx-auto py-20;
+    }
+
+    .process > h1 {
+        @apply text-5xl font-extrabold text-[#0046ff];
+    }
+
+    .process > p {
+        @apply text-slate-600 font-medium mt-4;
+    }
+
+    .processes {
+        @apply flex items-start justify-between mt-10 relative;
+    }
+
+    .dot-bar {
+        @apply absolute w-[80%] ml-5 top-10;
+        border-top: 7px dotted #0046ff;
+        z-index: 1;
+    }
+
+    .process__step {
+        @apply w-[20%];
+        z-index: 10;
+    }
+
+    .process__icon {
+        @apply inline-block rounded-full overflow-hidden p-5 bg-[#eaf0ff];
+    }
+
+    .process__step img {
+        @apply w-[50px];
+    }
+
+    .process__step > h1 {
+        @apply text-3xl text-blue-600 font-extrabold mt-2;
+    }
+
+    .process__step > p {
+        @apply text-sm tracking-wide mt-3;
+    }
+}

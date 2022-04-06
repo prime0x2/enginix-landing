@@ -1,0 +1,23 @@
+@tailwind components;
+
+@layer components {
+    .header {
+        @apply bg-[#f4f7ff] text-center py-28 border-b-8 border-blue-600;
+    }
+
+    .header h3 {
+        @apply text-slate-800 font-extrabold text-4xl;
+    }
+
+    .header h1 {
+        @apply text-blue-600 font-extrabold text-6xl uppercase mt-3;
+    }
+
+    .header p {
+        @apply font-medium text-slate-700 mt-3;
+    }
+
+    .header button {
+        @apply px-7 py-2 bg-blue-600 hover:bg-blue-500 font-semibold text-white rounded mt-5;
+    }
+}
