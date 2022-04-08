@@ -1,37 +1,37 @@
 export const clients = [
     {
-        img: '/assets/poc.svg',
+        img: '/images/poc.svg',
         link: '',
         resize: false
     },
     {
-        img: '/assets/uftl.svg',
+        img: '/images/uftl.svg',
         link: '',
         resize: false
     },
     {
-        img: '/assets/tuni.svg',
+        img: '/images/tuni.svg',
         link: '',
         resize: false
     },
     {
-        img: '/assets/onnow.png',
+        img: '/images/onnow.png',
         link: '',
         resize: false
     },
     {
-        img: '/assets/buet.svg',
+        img: '/images/buet.svg',
         link: '',
         resize: true
     },
 
     {
-        img: '/assets/du.svg',
+        img: '/images/du.svg',
         link: '',
         resize: true
     },
     {
-        img: '/assets/invest.svg',
+        img: '/images/invest.svg',
         link: '',
         resize: false
     },
@@ -43,43 +43,43 @@ export const clients = [
 export const portfolios = [
     {
         title: "Fuel Delivery Logistics System",
-        logo: "/assets/uftl.svg",
-        cover: "/assets/portfolio/1.png",
+        logo: "/images/uftl.svg",
+        cover: "/images/portfolio/1.png",
         description: "It can be used to order fuel according to your location, time and track the order's progress.",
         resize: false
     },
     {
         title: "Academic Exam Management System",
-        logo: "/assets/poc.svg",
-        cover: "/assets/portfolio/2.png",
+        logo: "/images/poc.svg",
+        cover: "/images/portfolio/2.png",
         description: "An exam management web app that allows students to give exams, view results, automatically rank results, and fix the advanced exam dates.",
         resize: false
     },
     {
         title: "Tunibibi Global Trading Application",
-        logo: "/assets/tuni.svg",
-        cover: "/assets/portfolio/3.png",
+        logo: "/images/tuni.svg",
+        cover: "/images/portfolio/3.png",
         description: "This web app is utilized for payment processing both locally and internationally, as well as warehousing, shipping, and customs clearance.",
         resize: false
     },
     {
         title: "Academic Web Application for DU",
-        logo: "/assets/du.svg",
-        cover: "/assets/portfolio/4.png",
+        logo: "/images/du.svg",
+        cover: "/images/portfolio/4.png",
         description: "Teachers can post blogs, publish results and notices. Students can share their university activities on this website.",
         resize: true
     },
     {
         title: "Cloud Kitchen Management System",
-        logo: "/assets/onnow.png",
-        cover: "/assets/portfolio/5.png",
+        logo: "/images/onnow.png",
+        cover: "/images/portfolio/5.png",
         description: "This web app is used for D2C food ordering systems, kitchen management systems, and digital payment integration.",
         resize: false
     },
     {
         title: "Academic Web Application for BUET",
-        logo: "/assets/buet.svg",
-        cover: "/assets/portfolio/6.png",
+        logo: "/images/buet.svg",
+        cover: "/images/portfolio/6.png",
         description: "Teachers can post blogs, results and announcements. Students can get information about their university activities.",
         resize: true
     },
@@ -92,55 +92,55 @@ export const members = [
         name: "Rakib Ullah",
         description: "Rakib Ullah has been practicing in several business sectors including software industry. He also has experiences in product management.",
         role: "Founder & CEO",
-        img: "/assets/rakib.png"
+        img: "/images/rakib.png"
     },
     {
         name: "Manjur Rahman",
         description: "Manjur is in charge of developing a company's vision, implementing business initiatives, achieving financial growth.",
         role: "Chief Strategy Officer",
-        img: "/assets/manjur.png"
+        img: "/images/manjur.png"
     },
     {
         name: "Shahed Hossain",
         description: "Shahed is working intensive research for the project along with his expertise in embedded systems and IoT.",
         role: "Chief Research Officer",
-        img: "/assets/shahed.png"
+        img: "/images/shahed.png"
     },
     {
         name: "Thauhid Hussain",
         description: "He is passionate about creating products that are human-centred and provide great customer experiences.",
         role: "Chief Product Officer",
-        img: "/assets/thauhid.png"
+        img: "/images/thauhid.png"
     },
     {
         name: "Zahed Hasan",
         description: "Zahed is currently leading software technology systems. He is a great problem solver and highly dedicated to fast learning.",
         role: "Chief Technology Officer",
-        img: "/assets/zahed.png"
+        img: "/images/zahed.png"
     },
     {
         name: "Jisan Mia",
         description: "Jisan is a effective frontend engineer. He creates visually appealing and highly functional frontend.",
         role: "Frontend Engineer",
-        img: "/assets/jisan.png"
+        img: "/images/jisan.png"
     },
     {
         name: "Alex Barua",
         description: "With experience of more than 1 year in the industry, Alex is adding value to Enginix as a back-end developer.",
         role: "Backend Engineer",
-        img: "/assets/alex.png"
+        img: "/images/alex.png"
     },
     {
         name: "Nazmus Sakib",
         description: "Having experience of more than 3 years as software engineer, Sakib is looking after the front-end part at Enginix.",
         role: "Frontend Engineer",
-        img: "/assets/sakib.png"
+        img: "/images/sakib.png"
     },
     {
         name: "Md. Sabbir Hossain",
         description: "Enginix is having Sabbir on board to look after the back-end part. He is well known for his logical problem solving experience.",
         role: "Backend Engineer",
-        img: "/assets/sabbir.png"
+        img: "/images/sabbir.png"
     }
 ]
 
@@ -153,35 +153,35 @@ export const techs = [
         tech: [
             "backend",
         ],
-        img: "/assets/techs/python.png"
+        img: "/images/techs/python.png"
     },
     {
         name: "Django",
         tech: [
             "backend",
         ],
-        img: "/assets/techs/django.png"
+        img: "/images/techs/django.png"
     },
     {
         name: "Rest API",
         tech: [
             "backend",
         ],
-        img: "/assets/techs/rest.png"
+        img: "/images/techs/rest.png"
     },
     {
         name: "Docker",
         tech: [
             "devops",
         ],
-        img: "/assets/techs/docker.png"
+        img: "/images/techs/docker.png"
     },
     {
         name: "MySQL",
         tech: [
             "database"
         ],
-        img: "/assets/techs/mysql.png"
+        img: "/images/techs/mysql.png"
     },
     {
         name: "Dart",
@@ -189,63 +189,63 @@ export const techs = [
             "backend",
             "mobile",
         ],
-        img: "/assets/techs/dart.png"
+        img: "/images/techs/dart.png"
     },
     {
         name: "Flutter",
         tech: [
             "mobile",
         ],
-        img: "/assets/techs/flutter.png"
+        img: "/images/techs/flutter.png"
     },
     {
         name: "Redis",
         tech: [
             "devops",
         ],
-        img: "/assets/techs/redis.png"
+        img: "/images/techs/redis.png"
     },
     {
         name: "Javascript",
         tech: [
             "frontend",
         ],
-        img: "/assets/techs/javascript.png"
+        img: "/images/techs/javascript.png"
     },
     {
         name: "AWS",
         tech: [
             "devops",
         ],
-        img: "/assets/techs/aws.png"
+        img: "/images/techs/aws.png"
     },
     {
         name: "Mongo DB",
         tech: [
             "database"
         ],
-        img: "/assets/techs/mongo.png"
+        img: "/images/techs/mongo.png"
     },
     {
         name: "Node JS",
         tech: [
             "backend",
         ],
-        img: "/assets/techs/node.png"
+        img: "/images/techs/node.png"
     },
     {
         name: "Firebase",
         tech: [
             "mobile", "database"
         ],
-        img: "/assets/techs/firebase.png"
+        img: "/images/techs/firebase.png"
     },
     {
         name: "PostgreSQL",
         tech: [
             "database"
         ],
-        img: "/assets/techs/postgre.png"
+        img: "/images/techs/postgre.png"
     },
     {
         name: "React",
@@ -253,27 +253,27 @@ export const techs = [
             "frontend",
             "mobile"
         ],
-        img: "/assets/techs/react.png"
+        img: "/images/techs/react.png"
     },
     {
         name: "Vue.js",
         tech: [
             "frontend",
         ],
-        img: "/assets/techs/vue.png"
+        img: "/images/techs/vue.png"
     },
     {
         name: "Tailwind CSS",
         tech: [
             "frontend",
         ],
-        img: "/assets/techs/tailwind.png"
+        img: "/images/techs/tailwind.png"
     },
     {
         name: "Digital Ocean",
         tech: [
             "devops",
         ],
-        img: "/assets/techs/digitalocean.png"
+        img: "/images/techs/digitalocean.png"
     },
 ]

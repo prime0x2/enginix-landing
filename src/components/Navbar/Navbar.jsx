@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css'
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
-
     const [navbarOpen, setNavbarOpen] = useState(false);
 
     return (
@@ -11,10 +10,14 @@ const Navbar = () => {
             <nav className="navbar">
                 <div className="navbar__logo">
                     <Link to="/">
-                        <img src="/assets/logo.svg" alt="" />
+                        <img src="/images/logo.svg" alt="" />
                     </Link>
                 </div>
-                <div className={navbarOpen ? "navbar__links active" : "navbar__links"}>
+                <div
+                    className={
+                        navbarOpen ? "navbar__links active" : "navbar__links"
+                    }
+                >
                     <ul>
                         <li className="nav-links">
                             <Link to="/">Home</Link>
@@ -33,11 +36,14 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-                <div className={navbarOpen ? "navbar__button active" : "navbar__button"}>
+                <div
+                    className={
+                        navbarOpen ? "navbar__button active" : "navbar__button"
+                    }
+                >
                     <button>Get a Quote</button>
                 </div>
             </nav>
-
 
             <div className="navbar__toggle">
                 <button onClick={() => setNavbarOpen(!navbarOpen)}>

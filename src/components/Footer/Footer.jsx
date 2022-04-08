@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="footer__container">
                 <div className="footer__content">
                     <div className="footer__content__left">
-                        <img src="/assets/logo_white.png" alt="" />
+                        <img src="/images/logo_white.png" alt="" />
                         <p>
                             We strive to build something that really matters in
                             the technology world and make some impacts!
