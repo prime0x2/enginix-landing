@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="footer__content">
                     <div className="footer__content__left">
                         <img src="/assets/logo_white.png" alt="" />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nibh posuere elit, felis amet, dictum condimentum sed magna. Et ac varius vitae tempus enim, ipsum. </p>
+                        <p>We strive to build something that really matters in the technology world and make some impacts!</p>
                         <i class="fa-brands fa-linkedin"></i>
                         <i class="fa-brands fa-facebook-square"></i>
                     </div>

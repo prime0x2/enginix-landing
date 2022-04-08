@@ -90,46 +90,55 @@ export const portfolios = [
 export const members = [
     {
         name: "Rakib Ullah",
+        description: "Rakib Ullah has been practicing in several business sectors including software industry. He also has experiences in product management.",
         role: "Founder & CEO",
         img: "/assets/rakib.png"
     },
     {
         name: "Manjur Rahman",
+        description: "Manjur is in charge of developing a company's vision, implementing business initiatives, achieving financial growth.",
         role: "Chief Strategy Officer",
         img: "/assets/manjur.png"
     },
     {
         name: "Shahed Hossain",
+        description: "Shahed is working intensive research for the project along with his expertise in embedded systems and IoT.",
         role: "Chief Research Officer",
         img: "/assets/shahed.png"
     },
     {
         name: "Thauhid Hussain",
+        description: "He is passionate about creating products that are human-centred and provide great customer experiences.",
         role: "Chief Product Officer",
         img: "/assets/thauhid.png"
     },
     {
         name: "Zahed Hasan",
+        description: "Zahed is currently leading software technology systems. He is a great problem solver and highly dedicated to fast learning.",
         role: "Chief Technology Officer",
         img: "/assets/zahed.png"
     },
     {
         name: "Jisan Mia",
+        description: "Jisan is a effective frontend engineer. He creates visually appealing and highly functional frontend.",
         role: "Frontend Engineer",
         img: "/assets/jisan.png"
     },
     {
         name: "Alex Barua",
+        description: "With experience of more than 1 year in the industry, Alex is adding value to Enginix as a back-end developer.",
         role: "Backend Engineer",
         img: "/assets/alex.png"
     },
     {
         name: "Nazmus Sakib",
+        description: "Having experience of more than 3 years as software engineer, Sakib is looking after the front-end part at Enginix.",
         role: "Frontend Engineer",
         img: "/assets/sakib.png"
     },
     {
         name: "Md. Sabbir Hossain",
+        description: "Enginix is having Sabbir on board to look after the back-end part. He is well known for his logical problem solving experience.",
         role: "Backend Engineer",
         img: "/assets/sabbir.png"
     }

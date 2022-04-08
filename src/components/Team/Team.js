@@ -5,23 +5,21 @@ import { members } from '../../data'
 const Team = () => {
     return (
         <section className="team">
-            <h1>Out Team</h1>
+            <h1>Meet The Team</h1>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <br />
-                Adipiscing aliquam enim mi libero nisi vitae ipsum.
+                Enginix owns a team of some enthusiastic, and passionate people in their respective fields. Our team believes in absolute quality. Get a glance of the team
             </p>
 
             <div className="team__members">
                 {
                     members.map((member, index) => (
                         <div className="member__single" key={index}>
-                            <img src={member.img} alt="" />
-                            <h1>{member.name}</h1>
-                            <h3>{member.role}</h3>
-                            <p>
-                                Massa turpis vitae, justo. Commodo diam consectetur nunc eget suspendisse. Mattis velit, pellentesque tristique tincidunt eget in.
-                            </p>
+                            <div className="member__info">
+                                <img src={member.img} alt="" />
+                                <h1>{member.name}</h1>
+                                <h3>{member.role}</h3>
+                                <p>{member.description}</p>
+                            </div>
                             <div className="member__social">
                                 <button>
                                     <i class="fa-brands fa-linkedin"></i>

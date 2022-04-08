@@ -6,19 +6,19 @@
     }
 
     .team > h1 {
-        @apply text-5xl font-extrabold text-center text-blue-600;
+        @apply text-5xl font-extrabold text-center text-blue-600 mobile-lg:text-3xl _tablet:text-4xl;
     }
 
     .team > p {
-        @apply text-center text-slate-700 font-medium mt-3;
+        @apply text-center text-slate-700 font-medium mt-3 w-[450px] mx-auto _mobile-lg:w-[380px] mobile-sm:w-full;
     }
 
     .team__members {
-        @apply grid grid-cols-3 gap-10 mt-10;
+        @apply grid grid-cols-3 gap-10 mt-10 _desktop-sm:gap-5 _tablet:grid-cols-2 mobile-lg:grid-cols-1;
     }
 
     .member__single {
-        @apply p-10 rounded;
+        @apply p-10 rounded flex justify-between flex-col _desktop-sm:p-5 _tablet:p-5;
         box-shadow: 10px 10px 20px #eaeaea, -10px -10px 20px #eaeaea;
     }
 
@@ -26,15 +26,15 @@
         @apply w-[120px];
     }
 
-    .member__single > h1 {
-        @apply text-3xl font-bold text-slate-700 mt-2;
+    .member__info > h1 {
+        @apply text-2xl font-bold text-slate-700 mt-2;
     }
 
-    .member__single > h3 {
+    .member__info > h3 {
         @apply text-blue-600 font-medium;
     }
 
-    .member__single > p {
+    .member__info > p {
         @apply text-sm tracking-wide mt-3;
     }
 
