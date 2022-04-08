@@ -24,7 +24,7 @@ const App = () => {
             <Process />
             <Team />
             <Project />
-            {/* <Footer /> */}
+            <Footer />
         </>
     );
 };

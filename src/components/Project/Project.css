@@ -6,18 +6,18 @@
     }
 
     .project__container {
-        @apply text-white px-28 py-24;
+        @apply text-white px-28 py-24 _tablet:p-20 mobile-lg:p-8 mobile-lg:text-center;
     }
 
     .project__container h3 {
-        @apply text-5xl font-extrabold;
+        @apply text-5xl font-extrabold mobile-lg:text-2xl;
     }
 
     .project__container h1 {
-        @apply text-8xl uppercase font-extrabold py-3;
+        @apply text-8xl uppercase font-extrabold py-3 mobile-lg:text-5xl;
     }
 
     .project__container button {
-        @apply px-7 py-3 font-bold bg-blue-600 rounded mt-7;
+        @apply px-7 py-3 font-bold bg-blue-600 rounded mt-7 mobile-lg:text-sm;
     }
 }
