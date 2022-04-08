@@ -49,7 +49,7 @@
         @apply text-center text-sm py-5;
     }
 
-    .footer__copyright a {
-        @apply underline;
+    .footer__copyright a:nth-child(2) {
+        @apply text-cyan-400;
     }
 }
