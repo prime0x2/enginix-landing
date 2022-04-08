@@ -7,7 +7,7 @@ const About = () => {
             <h1>About</h1>
             <img src="/assets/logo.svg" alt="logo" />
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nibh posuere elit, felis amet, dictum condimentum sed magna. Et ac varius vitae tempus enim, ipsum. Metus imperdiet turpis nibh fermentum lectus vel massa. Arcu, velit tellus urna elit. Egestas magnis etiam phasellus nisl, elementum consectetur purus. Varius suspendisse congue ac, mus at vitae porttitor. Velit eget est aliquet massa convallis massa turpis vitae, justo. Commodo diam consectetur nunc eget suspendisse. Mattis velit, pellentesque tristique tincidunt eget in.
+                Enginix Technologies offers a variety of value-adding solutions and best-of-breed services to internet companies worldwide. Our comprehensive range of products and services includes Product Design (UI/UX), Mobile App Development, Web Development, System Analysis & Software Quality Assurance.
             </p>
             <button>Contact Us</button>
         </section>

@@ -2,11 +2,11 @@
 
 @layer components {
     .portfolio {
-        @apply w-[75%] mx-auto py-20;
+        @apply w-[75%] mx-auto pt-20 pb-32;
     }
 
     .portfolio > h1 {
-        @apply text-5xl font-extrabold text-blue-600 text-center;
+        @apply text-5xl font-extrabold text-blue-600 text-center mobile-lg:text-3xl;
     }
 
     .portfolio > p {
@@ -14,30 +14,42 @@
     }
 
     .portfolio__list {
-        @apply mt-10 grid grid-cols-3 gap-16;
+        @apply mt-10 grid grid-cols-3 gap-x-16 gap-y-32 _desktop-sm:gap-x-6 _tablet:gap-x-5 _tablet:grid-cols-2 mobile-lg:grid-cols-1 _mobile-lg:gap-y-28 mobile-sm:gap-y-24;
+    }
+
+    .portfolio__item {
+        @apply relative mobile-lg:text-center;
+    }
+
+    .portfolio__item > .cover {
+        @apply w-[360px] mobile-lg:mx-auto;
+    }
+
+    .portfolio__item > .logo-container {
+        @apply absolute -bottom-16 w-full;
     }
 
     .portfolio__item .logo {
-        @apply w-[100px] mt-3;
+        @apply w-[120px] mt-3 pl-5 mobile-lg:mx-auto;
     }
 
     .portfolio__item:nth-child(5) .logo {
-        @apply w-[150px];
+        @apply w-[180px];
     }
 
     .portfolio__item .resize.logo {
-        @apply w-[40px];
+        @apply w-[60px];
     }
 
     .portfolio__item__body {
-        @apply px-5;
+        @apply px-5 _tablet:px-3;
     }
 
     .portfolio__item__body > h1 {
-        @apply font-bold text-2xl mt-3;
+        @apply font-bold text-2xl mt-3 _desktop-sm:text-lg tablet:text-base;
     }
 
     .portfolio__item__body > p {
-        @apply text-sm tracking-wide mt-2;
+        @apply text-sm tracking-wide mt-2 _mobile-lg:w-[320px] _mobile-lg:mx-auto;
     }
 }

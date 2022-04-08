@@ -2,24 +2,24 @@
 
 @layer components {
     .technologies {
-        @apply w-[85%] mx-auto pb-20 pt-10 text-center;
+        @apply w-[80%] mx-auto pb-20 pt-10 text-center;
     }
 
     .technologies h3 {
-        @apply text-3xl font-extrabold;
+        @apply text-3xl font-extrabold mobile-sm:text-2xl;
     }
 
     .technologies h1 {
-        @apply text-5xl font-extrabold text-blue-600 mt-2;
+        @apply text-5xl font-extrabold text-blue-600 mt-2 _mobile-lg:text-4xl mobile-sm:text-3xl;
     }
 
     .tech__category ul {
-        @apply space-x-2 mt-8 inline-block p-2 rounded;
+        @apply mt-8 inline-block p-1 rounded;
         box-shadow: 0px 0px 20px #d5d5d5;
     }
 
     .category {
-        @apply inline-block bg-[#dee7ff] py-1 px-3 hover:bg-blue-600 hover:text-white cursor-pointer;
+        @apply inline-block bg-[#dee7ff] py-1 px-3 hover:bg-blue-600 hover:text-white cursor-pointer m-1;
     }
 
     .category.active {
@@ -27,10 +27,19 @@
     }
 
     .tech__container {
-        @apply flex items-center flex-wrap justify-center mt-5;
+        @apply grid grid-cols-6 justify-center gap-5 mt-5 _desktop-sm:grid-cols-5 _tablet:grid-cols-4 _mobile-lg:grid-cols-2 mobile-sm:grid-cols-1;
     }
 
-    .tech__container img {
-        @apply h-24 px-5 py-5;
+    .tech__item {
+        @apply p-5 rounded flex flex-col items-center justify-between;
+        box-shadow: 0px 0px 15px #eaeaea;
+    }
+
+    .tech__item img {
+        @apply h-[65px] mx-auto;
+    }
+
+    .tech__item p {
+        @apply text-xl font-medium mt-3 _desktop-sm:text-lg _tablet:text-[17px];
     }
 }

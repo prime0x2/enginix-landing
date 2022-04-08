@@ -6,18 +6,18 @@
     }
 
     .clients h1 {
-        @apply text-3xl text-blue-600 font-extrabold mb-4;
+        @apply text-3xl text-blue-600 font-extrabold mb-4 mobile-sm:text-2xl;
     }
 
     .clients__list {
-        @apply flex items-center justify-between;
+        @apply flex items-center justify-center _tablet:flex-wrap _mobile-lg:flex-wrap mobile-sm:flex-col;
     }
 
     .clients__list img {
-        @apply w-[160px];
+        @apply w-[17%] p-5 _tablet:w-[200px] _mobile-lg:w-[160px] mobile-sm:w-[190px];
     }
 
     .clients__list .resize {
-        @apply w-[90px];
+        @apply w-[9%] _tablet:w-[120px] _mobile-lg:w-[90px] mobile-sm:w-[110px];
     }
 }

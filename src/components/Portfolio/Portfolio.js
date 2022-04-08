@@ -7,25 +7,21 @@ const Portfolio = () => {
         <section className="portfolio">
             <h1>Portfolio</h1>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <br />
-                Adipiscing aliquam enim mi libero nisi vitae ipsum.
+                Take a look at some of our successful projects
             </p>
 
             <div className="portfolio__list">
                 {
                     portfolios.map((item, index) => (
                         <div className="portfolio__item" key={index}>
-                            <img src={item.cover} alt="" />
+                            <img src={item.cover} className="cover" alt="" />
                             <div className="portfolio__item__body">
                                 <h1>{item.title}</h1>
                                 <p>
-                                    Lorem ipsum dolor sit amet,
-                                    <br />
-                                    consectetur adipiscing elit. Adipiscing
-                                    <br />
-                                    aliquam enim mi libero nisi vitae ipsum.
+                                    {item.description}
                                 </p>
+                            </div>
+                            <div className="logo-container">
                                 <img src={item.logo} alt="" className={item.resize ? 'resize logo' : 'logo'} />
                             </div>
                         </div>

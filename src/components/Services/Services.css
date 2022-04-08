@@ -2,35 +2,39 @@
 
 @layer components {
     .services {
-        @apply w-full bg-[#0046ff] py-20;
+        @apply w-full bg-[#0046ff] py-20 tablet:py-12;
     }
 
     .services__container {
-        @apply w-[80%] mx-auto text-white;
+        @apply w-[80%] _tablet:w-[90%] mx-auto text-white;
     }
 
     .services__container > h1 {
-        @apply text-6xl font-extrabold mb-4;
+        @apply text-6xl font-extrabold mb-4 _tablet:text-5xl tablet:text-center mobile-lg:text-3xl;
     }
 
     .services__container > p {
-        @apply text-sm mb-10;
+        @apply text-sm mb-14 _mobile-lg:mb-8 tablet:text-center w-[450px] _mobile-lg:w-[350px] mobile-sm:w-[100%] tablet:mx-auto;
     }
 
     .services__list {
-        @apply flex items-center justify-between;
+        @apply flex items-center justify-between space-x-10 _tablet:justify-between tablet:space-x-0 mobile-lg:flex-wrap mobile-lg:justify-around;
+    }
+
+    .service__item {
+        @apply _tablet:p-5 mobile-lg:px-4 mobile-lg:py-5 tablet:text-center;
     }
 
     .service__item img {
-        @apply w-[90px];
+        @apply w-[90px] tablet:mx-auto tablet:w-[70px];
     }
 
     .service__item > h1 {
-        @apply text-3xl font-bold mt-3;
+        @apply text-2xl font-bold mt-3 tablet:text-xl;
     }
 
     .service__item > p {
-        @apply mt-3 font-light tracking-wide;
+        @apply mt-3 font-light tracking-wide w-[300px] _desktop-sm:w-[100%] tablet:w-[100%] tablet:text-sm tablet:tracking-normal _mobile-lg:w-[80%] tablet:mx-auto;
     }
 
     .service__item button {

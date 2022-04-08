@@ -54,13 +54,19 @@ const Tech = () => {
                     {
                         category === null ? (
                             techs.map((tech, index) => (
-                                <img key={index} src={tech.img} alt="" />
+                                <div className="tech__item" key={index}>
+                                    <img src={tech.img} alt="" />
+                                    <p>{tech.name}</p>
+                                </div>
                             ))
                         ) : (
                             techs.filter((tech) => (
                                 tech.tech.includes(category)
                             )).map((tech, index) => (
-                                <img key={index} src={tech.img} alt="" />
+                                <div className="tech__item" key={index}>
+                                    <img src={tech.img} alt="" />
+                                    <p>{tech.name}</p>
+                                </div>
                             ))
                         )
                     }

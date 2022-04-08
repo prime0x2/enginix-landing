@@ -2,19 +2,19 @@
 
 @layer components {
     .header {
-        @apply bg-[#f4f7ff] text-center py-28 border-b-8 border-blue-600;
+        @apply bg-[#f4f7ff] text-center py-28 mobile-lg:py-10 border-b-8 border-blue-600 tablet:px-10;
     }
 
     .header h3 {
-        @apply text-slate-800 font-extrabold text-4xl;
+        @apply text-slate-800 font-extrabold text-4xl _mobile-lg:text-2xl mobile-sm:text-lg;
     }
 
     .header h1 {
-        @apply text-blue-600 font-extrabold text-6xl uppercase mt-3;
+        @apply text-blue-600 font-extrabold text-6xl uppercase mt-3 mobile-sm:text-2xl _mobile-lg:text-3xl _tablet:text-5xl;
     }
 
     .header p {
-        @apply font-medium text-slate-700 mt-3;
+        @apply font-medium text-slate-700 mt-3 mobile-sm:text-sm;
     }
 
     .header button {

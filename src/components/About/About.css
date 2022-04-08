@@ -2,19 +2,19 @@
 
 @layer components {
     .about {
-        @apply w-[80%] mx-auto py-20;
+        @apply w-[80%] mx-auto pt-12 pb-20;
     }
 
     .about h1 {
-        @apply text-5xl font-extrabold text-blue-600;
+        @apply text-5xl font-extrabold text-blue-600 mobile-lg:text-4xl;
     }
 
     .about img {
-        @apply w-[350px] mt-5;
+        @apply w-[350px] mt-5 mobile-lg:w-[200px];
     }
 
     .about p {
-        @apply w-[59%] mt-3 font-medium text-slate-600;
+        @apply w-[660px] mt-3 font-medium text-slate-600 _tablet:w-[580px] mobile-lg:w-[100%] mobile-lg:text-sm;
     }
 
     .about button {
