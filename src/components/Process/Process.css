@@ -2,7 +2,7 @@
 
 @layer components {
     .process {
-        @apply w-[80%] mx-auto py-20;
+        @apply w-[80%] mx-auto pt-20;
     }
 
     .process > h1 {
@@ -14,16 +14,16 @@
     }
 
     .processes {
-        @apply flex items-start justify-between mt-10 relative _mobile-lg:flex-wrap mobile-sm:flex-col;
+        @apply flex items-start justify-between mt-10 relative mobile-lg:flex-col;
     }
 
     .dot-bar {
-        @apply absolute w-[80%] ml-5 top-10 border-t-[7px] border-dotted _tablet:border-t-[5px] border-[#0046ff] _tablet:top-8 mobile-lg:border-0;
+        @apply absolute w-[80%] ml-5 top-10 border-t-[7px] border-dotted _tablet:border-t-[5px] border-[#0046ff] _tablet:top-8 mobile-lg:h-[78%] mobile-lg:border-t-0 mobile-lg:border-l-[7px] mobile-lg:left-[13%] mobile-lg:ml-0;
         z-index: 1;
     }
 
     .process__step {
-        @apply w-[20%] _tablet:w-[22%] _mobile-lg:w-[46%] _mobile-lg:py-5 mobile-sm:w-[90%] mobile-sm:mx-auto mobile-sm:text-center mobile-sm:py-5;
+        @apply w-[20%] _tablet:w-[22%] mobile-lg:w-[90%] mobile-lg:mx-auto mobile-sm:mx-auto mobile-lg:bg-white mobile-lg:py-3 mobile-lg:mb-20;
         z-index: 10;
     }
 

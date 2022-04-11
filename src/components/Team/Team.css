@@ -2,7 +2,7 @@
 
 @layer components {
     .team {
-        @apply w-[80%] mx-auto py-10;
+        @apply w-[80%] mobile-lg:w-[75%] mx-auto py-10;
     }
 
     .team > h1 {

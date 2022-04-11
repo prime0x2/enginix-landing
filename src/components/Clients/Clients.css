@@ -10,14 +10,14 @@
     }
 
     .clients__list {
-        @apply flex items-center justify-center _tablet:flex-wrap _mobile-lg:flex-wrap mobile-sm:flex-col;
+        @apply flex items-center justify-center _tablet:flex-wrap mobile-lg:flex-wrap;
     }
 
     .clients__list img {
-        @apply w-[17%] p-5 _tablet:w-[200px] _mobile-lg:w-[160px] mobile-sm:w-[190px];
+        @apply w-[17%] p-5 _tablet:w-[200px] _mobile-lg:w-[160px] mobile-sm:w-[50%];
     }
 
     .clients__list .resize {
-        @apply w-[9%] _tablet:w-[120px] _mobile-lg:w-[90px] mobile-sm:w-[110px];
+        @apply w-[9%] _tablet:w-[120px] _mobile-lg:w-[90px] mobile-sm:w-[25%];
     }
 }

@@ -35,10 +35,7 @@ const Footer = () => {
                     <a href="/" target="_blank">
                         Enginix Technologies
                     </a>
-                    . Designed By{" "}
-                    <a href="https://github.com/prime0x2" target="_blank">
-                        M. Prime
-                    </a>
+                    .
                 </div>
             </div>
         </footer>

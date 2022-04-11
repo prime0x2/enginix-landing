@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-const Navbar = () => {
+const Menubar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
     return (
@@ -13,11 +13,8 @@ const Navbar = () => {
                         <img src="/images/logo.svg" alt="" />
                     </Link>
                 </div>
-                <div
-                    className={
-                        navbarOpen ? "navbar__links active" : "navbar__links"
-                    }
-                >
+
+                <div className="navbar__links">
                     <ul>
                         <li className="nav-links">
                             <Link to="/">Home</Link>
@@ -36,22 +33,42 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-                <div
-                    className={
-                        navbarOpen ? "navbar__button active" : "navbar__button"
-                    }
-                >
+
+                <div className="navbar__button">
                     <button>Get a Quote</button>
+
+                    <div className="navbar__toggle">
+                        <button onClick={() => setNavbarOpen(!navbarOpen)}>
+                            <i className="fa-solid fa-bars"></i>
+                        </button>
+                    </div>
                 </div>
             </nav>
-
-            <div className="navbar__toggle">
-                <button onClick={() => setNavbarOpen(!navbarOpen)}>
-                    <i className="fa-solid fa-bars"></i>
-                </button>
+            <div
+                className={
+                    navbarOpen ? "toggle__links active" : "toggle__links"
+                }
+            >
+                <ul>
+                    <li className="nav-links">
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li className="nav-links">
+                        <Link to="/">Services</Link>
+                    </li>
+                    <li className="nav-links">
+                        <Link to="/">Portfolio</Link>
+                    </li>
+                    <li className="nav-links">
+                        <Link to="/">About Us</Link>
+                    </li>
+                    <li className="nav-links">
+                        <Link to="/">Team</Link>
+                    </li>
+                </ul>
             </div>
         </div>
     );
 };
 
-export default Navbar;
+export default Menubar;

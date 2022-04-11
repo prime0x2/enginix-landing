@@ -13,7 +13,7 @@ const Project = () => {
             >
                 <h3>Let's Start a</h3>
                 <h1>Project</h1>
-                <h3>with us!</h3>
+                <h3>together!</h3>
                 <button>Send a Message</button>
             </div>
         </section>

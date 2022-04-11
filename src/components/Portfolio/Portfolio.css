@@ -18,7 +18,7 @@
     }
 
     .portfolio__item {
-        @apply relative mobile-lg:text-center;
+        @apply relative;
     }
 
     .portfolio__item > .cover {
@@ -30,7 +30,7 @@
     }
 
     .portfolio__item .logo {
-        @apply w-[120px] mt-3 pl-5 mobile-lg:mx-auto;
+        @apply w-[120px] mt-3 pl-5;
     }
 
     .portfolio__item:nth-child(5) .logo {

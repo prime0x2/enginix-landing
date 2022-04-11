@@ -14,7 +14,7 @@
     }
 
     .header p {
-        @apply font-medium text-slate-700 mt-3 mobile-sm:text-sm;
+        @apply font-medium text-slate-700 mt-3 mobile-sm:text-sm w-[400px] mx-auto mobile-lg:w-[90%];
     }
 
     .header button {

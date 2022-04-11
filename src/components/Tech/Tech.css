@@ -19,7 +19,7 @@
     }
 
     .category {
-        @apply inline-block bg-[#dee7ff] py-1 px-3 hover:bg-blue-600 hover:text-white cursor-pointer m-1;
+        @apply inline-block bg-[#dee7ff] py-1 px-3 hover:bg-blue-600 hover:text-white cursor-pointer m-1 mobile-lg:text-sm;
     }
 
     .category.active {
@@ -27,7 +27,7 @@
     }
 
     .tech__container {
-        @apply grid grid-cols-6 justify-center gap-5 mt-5 _desktop-sm:grid-cols-5 _tablet:grid-cols-4 _mobile-lg:grid-cols-2 mobile-sm:grid-cols-1;
+        @apply grid grid-cols-6 justify-center gap-5 mobile-lg:gap-2 mt-5 _desktop-sm:grid-cols-5 _tablet:grid-cols-4 mobile-lg:grid-cols-3;
     }
 
     .tech__item {
@@ -36,10 +36,10 @@
     }
 
     .tech__item img {
-        @apply h-[65px] mx-auto;
+        @apply h-[65px] mx-auto mobile-lg:h-[45px];
     }
 
     .tech__item p {
-        @apply text-xl font-medium mt-3 _desktop-sm:text-lg _tablet:text-[17px];
+        @apply text-xl font-medium mt-3 _desktop-sm:text-lg _tablet:text-[17px] mobile-lg:text-sm;
     }
 }

@@ -10,11 +10,11 @@
     }
 
     .services__container > h1 {
-        @apply text-6xl font-extrabold mb-4 _tablet:text-5xl tablet:text-center mobile-lg:text-3xl;
+        @apply text-6xl font-extrabold mb-4 _tablet:text-5xl mobile-lg:text-left _tablet:text-center mobile-lg:text-3xl;
     }
 
     .services__container > p {
-        @apply text-sm mb-14 _mobile-lg:mb-8 tablet:text-center w-[450px] _mobile-lg:w-[350px] mobile-sm:w-[100%] tablet:mx-auto;
+        @apply text-sm mb-14 _mobile-lg:mb-8 _tablet:text-center w-[450px] _mobile-lg:w-[350px] mobile-sm:w-[100%] _tablet:mx-auto;
     }
 
     .services__list {
@@ -22,11 +22,11 @@
     }
 
     .service__item {
-        @apply _tablet:p-5 mobile-lg:px-4 mobile-lg:py-5 tablet:text-center;
+        @apply _tablet:p-5 mobile-lg:px-4 mobile-lg:py-5 _tablet:text-center;
     }
 
     .service__item img {
-        @apply w-[90px] tablet:mx-auto tablet:w-[70px];
+        @apply w-[90px] _tablet:mx-auto tablet:w-[70px];
     }
 
     .service__item > h1 {
@@ -34,7 +34,7 @@
     }
 
     .service__item > p {
-        @apply mt-3 font-light tracking-wide w-[300px] _desktop-sm:w-[100%] tablet:w-[100%] tablet:text-sm tablet:tracking-normal _mobile-lg:w-[80%] tablet:mx-auto;
+        @apply mt-3 font-light tracking-wide w-[300px] _desktop-sm:w-[100%] tablet:w-[100%] tablet:text-sm tablet:tracking-normal _mobile-lg:w-[80%] _tablet:mx-auto;
     }
 
     .service__item button {
